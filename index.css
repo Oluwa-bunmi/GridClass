@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .firstSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.firstSection img {
+  width: 100%;
+  display: block;
+}
+.transform {
+  background-color: hsl(7deg, 67%, 96%);
+  display: flex;
+  justify-content: center;
+  padding: 0 7rem;
+  flex-direction: column;
+} */
+
+.twoColumns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+img {
+  width: 100%;
+  display: block;
+}
+.threeColumns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.centeredText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 6rem;
+}
+.centeredText h2{
+    margin-bottom: 2rem;
+}
+
+.second{
+    margin-top: 2rem;
+}
+/* ALTERNATIVE FOR CREATING SPACE BETWEEN THE BUTTONS
+.first{
+    margin-bottom: 2rem;
+} */
